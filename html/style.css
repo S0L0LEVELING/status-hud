@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum&display=swap');
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family: 'Cuprum';
+    background-color: transparent !important;
+  }
+    #app {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    }
+    
+  #vCardHolder {
+    position: relative;
+    width: 14vw;
+    height: 17vh;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 40px;
+    padding: 8px;    
+    left: 10%;
+    top: 100%;
+    transform: translate(-50%, -50%);  
+   
+  }
+  #gridbox {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 2px; 
+    margin: 0 auto; 
+    left: 10%;   
+    top: 15%; 
+    
+  }
+  #health {
+    stroke: pink;
+  }
+  .ldBarHealth {
+    position: relative;
+    text-align: center;
+  }
+  .ldBar {
+    position: relative;
+    text-align: center;
+   
+  }
+  .ldBar-label {
+    display: none;
+  }
+  .ldBar.label-center > .ldBar-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 3px rgba(255, 255, 255, 0.219);
+  }
+  .ldBar-label:after {
+    content: "";
+    display: inline;
+    
+  }
+  .ldBar.no-percent .ldBar-label:after {
+    content: "";
+    
+    
+  }
+  
