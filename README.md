@@ -17,7 +17,7 @@
 
 ---
 
-<p align="center"> 🤖 Few lines describing what your bot does.
+<p align="center"> 🤖 Few lines describing what the project does.
     <br> 
 </p>
 
@@ -28,7 +28,7 @@
 - [How it works](#working)
 - [Usage](#usage)
 - [Getting Started](#getting_started)
-- [Deploying your own bot](#deployment)
+- [Deploying](#deployment)
 - [Built Using](#built_using)
 - [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
@@ -93,7 +93,7 @@ a Fivem Server
 
 
 
-## 🚀 Deploying your own bot <a name = "deployment"></a>
+## 🚀 Deploying  <a name = "deployment"></a>
 
 
 
